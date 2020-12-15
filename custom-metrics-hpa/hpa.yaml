@@ -16,3 +16,7 @@ spec:
       # target 500 milli-requests per second,
       # which is 1 request every two seconds
       targetAverageValue: 500m
+  - type: Pods
+    pods:
+      metricName: packets-per-second
+      targetAverageValue: 1k
